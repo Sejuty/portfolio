@@ -32,6 +32,7 @@
   padding: 1.3rem 3rem;
   text-decoration: none;
   font-size: 20px;
+  transition: 200ms ease-in;
 }
 .top-container {
   max-width: 100vw;
@@ -284,6 +285,11 @@ nav {
   background-color: var(--color_primary);
   color: var(--body_color);
 }
+.call-me:hover {
+  background-color: var(--color_primary-light);
+  transition: 200ms ease-in;
+}
+
 
 /* .block a{
   text-decoration: none;
@@ -339,7 +345,7 @@ nav {
 
 .test-container {
   background: linear-gradient(to left, var(--grad_left), var(--grad_right)),
-    url(./../res/tests-free-img.jpg);
+  url("res/test_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left;
@@ -455,7 +461,7 @@ nav {
   background: var(--color_primary);
 }
 .btn1:hover {
-  transition-delay: 100ms;
+  transition: 200ms ease-in;
   background: var(--color_primary-light);
 }
 .btn2 {
@@ -463,7 +469,7 @@ nav {
   color: var(--color_primary);
 }
 .btn2:hover {
-  transition-delay: 100ms;
+  transition: 200ms ease-in;
   background: white;
 }
 
